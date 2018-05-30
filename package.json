@@ -1,0 +1,25 @@
+{
+  "name": "mongodbfornodecourse",
+  "version": "1.0.0",
+  "description": "Mongo DB for Node.js developers - course walkthrough",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catcarrier/m101js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catcarrier/m101js/issues"
+  },
+  "homepage": "https://github.com/catcarrier/m101js#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "consolidate": "^0.15.1",
+    "mongodb": "^3.1.0-beta4",
+    "nunjucks": "^3.1.3"
+  }
+}
