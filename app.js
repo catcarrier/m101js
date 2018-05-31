@@ -11,7 +11,7 @@ app.set('views', __dirname + '/views');
 
 MongoClient.connect('mongodb://localhost:27017/video', function (err, db) {
     assert.equal(err, null);
-    console.log('Conected to Mongo');
+    console.log('Connected to Mongo');
 
     app.get('/', function (req, res) {
         db.collection('movies').find({}).toArray(function (err, docs) {
